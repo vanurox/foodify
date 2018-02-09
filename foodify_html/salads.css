@@ -1,0 +1,382 @@
+.margin
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+.main
+{
+	width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*header starts here*/
+.header
+{
+    width: 100%;
+    height: 90px;
+    background-color: #FFC300;
+    clear: both;
+    position: relative;
+    top: 50px;
+
+}
+.logo
+{
+    background-image: url(../images/two.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    top: -55px;
+}
+.logo:hover
+{
+    cursor: pointer;
+    padding: 5px;
+}
+.header_main
+{
+    width: 1000px;
+    height: 90px;
+    background-color: #FFC300;
+    z-index: 7;
+    clear: both;
+
+}
+.box
+{
+    width: 190px;
+    height: 90px;
+    /*background-color: #eaa;*/
+    float: left;
+}
+.margin_left
+{
+    margin-left: 19px;
+}
+.margin_right
+{
+    margin-left: -15px;
+}
+.box_a
+{
+    width: 174px;
+    height: 38px;
+    color: #900C3F;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 900;
+    font-family: fantasy;
+}
+.box_b
+{
+    width: 174px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 900;
+}
+.box_b:hover
+{
+   color: #900C3F;  
+    cursor: pointer;
+}
+.social
+ {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 31px;
+    text-align: center;
+    margin-left: 12px;
+}
+.social:hover
+{    
+    color: #900C3F;  
+    cursor: pointer;
+}
+.map
+{
+    color: #900C3F;
+    margin-left: 2px;
+    font-size: 38px;
+}
+/*header ends here*/
+.body
+{
+   width: 1210px;
+    height: 100%;
+    /*background-color: #000;*/
+    position: relative;
+    top: 50px;
+} 
+/*list starts here*/
+.line
+{
+    width: 917px;
+    height: 33px;
+    
+}
+ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    width: 100px;
+    height: 29px;
+    text-align: center;
+    padding: 2px 0px;
+    float: left;
+    font-size: 19px;
+    color: #78281F;
+}
+ul li:hover
+{
+    cursor: pointer;
+    background-color: #78281F;
+    color: #fff;
+    padding-top: 2px;
+}
+/*list ends here*/
+.ttl
+{
+    width: 920px;
+    height: 50px;
+  
+    text-align: center;
+    font-family: fantasy;
+        font-size: 46px;
+    color: #FF9700
+}
+.container
+{
+    width: 900px;
+    height: auto;
+    /*background-color: #FF9700;*/
+    position: relative;
+    top: 20px;
+}
+.ct_1
+{
+    width: 1000px;
+    height: 120px;
+    background-color: #eee;
+    margin: 0px 0px 13px; 
+}
+.ct_a
+{
+    width: 180px;
+    height: 119px;
+    background-color: white;
+    float: left;
+}
+
+.ct_b
+{
+    width: 285px;
+    height: 120px;
+    /*background-color: #fac;*/
+    float: left;
+    position: relative;
+    left: 1px;
+}
+.ct_c
+{
+    width: 285px;
+    height: 40px;
+}
+
+.ct_d
+{
+    width: 296px;
+    height: 120px;
+    background-color: #FFC300;
+    float: left;
+    position: relative;
+    left: 3px;
+}
+.s1
+{
+    font-size: 30px;
+     font-weight: 900;
+}
+.ct_e
+{
+    width: 215px;
+    height: 120px;
+    /*background-color: #acc;*/
+    float: left;
+    position: relative;
+    left: 4px;
+}
+.ct_d1
+{
+   width: 267px;
+    height: 50px;
+    /* background-color: #acc; */
+    font-family: fantasy;
+    font-size: 28px;
+    color: #78281F;
+    text-align: center;
+}
+.ct_d1a
+{       
+     width: 187px;
+    height: 38px;
+    /* background-color: #dda; */
+    position: absolute;
+    top: 62px;
+    left: 22px;
+    font-size: 15px;
+    font-family: serif;
+    color: black;
+    margin-left: 26px;
+}
+.s2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+}
+.ct_d1b
+{
+    width: 50px;
+    
+}
+.ct_e
+{
+    width: 215px;
+    height: 120px;
+   /* background-color: #daa;*/
+    float: left;
+    position: relative;
+    left: 3px;
+}
+/*footer starts here*/
+.footer 
+{
+    width: 100%;
+    height: 275px;
+    position:relative;
+    top:85px;
+    background: url('../images/bk.jpg');
+}
+.ft_wk
+{
+    width: 900px;
+    height: 180px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.f_1
+{
+    width: 408px;
+    height: 112px;
+    color: #fff;
+    font-size: 50px;
+    font-family: cursive;
+    float: left;
+    margin: 0px 20px;
+}
+.f_2
+{
+    font-size: 13px;
+}
+.f_3
+{
+    width: 400px;
+    height: 20px;
+}
+.f3_a
+{
+    font-size: 10px;
+}
+.f_a
+{
+    font-size: 12px;
+    font-family: Verdana;
+    padding:34px;
+}
+.fa1
+{
+    font-size: 35px;
+    padding: -10px;
+    position: relative;
+    bottom: 51px;
+    left: 33px;
+}
+a:link {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #900C3F;
+    background-color: transparent;
+    text-decoration:none;
+}
+a:active {
+    color: #900C3F;
+    background-color: transparent;
+    text-decoration: none;
+}
+.locator
+{ 
+    color: #fff;
+    font-size: 34px;
+    text-align: center;   
+}
+ /*footer ends here*/
+ /*rating starts here*/
+ 
+
+.starRating:not(old){
+  display        : inline-block;
+  width          : 7.5em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background      : url('star-off.svg');
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background      : url('star-on.svg');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}

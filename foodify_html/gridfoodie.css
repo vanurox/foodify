@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.wrapper{	
+	width: 100%;
+    height: 1200px;  
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header{
+	display: grid;
+	grid-template-columns: 1fr, 4fr,3fr ;
+	/*grid-template-rows: (100px,auto);*/
+	grid-gap: 1em;
+	width: 100%;
+    /*height: auto;*/
+    background-color: #FFC300;
+    margin-top: 50px;
+	grid-template-areas: 
+	"logo  header_menu icons";
+}
+.logo{
+	grid-area:logo;
+	background-image: url(../images/two.png);
+    width: 200px;
+    height: 200px; 
+ 	align-items:  center;
+ 	/*justify-content: center;*/
+ 	/*margin-left: 30px;*/
+    /*margin-top: -55px;*/
+}
+.header_menu{
+	display: grid;
+	background-color: #FFC300;
+	border: 1px solid;
+	grid-template-columns:1fr,1fr,1fr,1fr ;
+	/*grid-template-rows: (50px, auto);*/
+	grid-area:header_menu;
+	/*height:auto;*/
+	grid-template-areas: 
+	"food offers locator signup" ;
+}
+.clearfix{
+	clear:both;
+}
+.food{
+	grid-area: food;	
+}
+.offers{
+	grid-area: offers;	
+}
+.locator{
+	grid-area: locator;	
+}
+.signup{
+	grid-area: signup;
+}
+.icons{
+	display: grid;
+	grid-template-columns: 1fr,1fr,1fr;
+	grid-area: icons;
+	grid-template-areas: 
+	"fb twitter insta";
+}
+.fb{
+	grid-area: fb;
+}
+.twitter{
+	grid-area: twitter;
+}
+.insta{
+	grid-area: insta;
+}
